@@ -44,7 +44,7 @@ export function createSearchURL(query: string, options?: Partial<URLOptions>) {
 	return encodeURI(url)
 }
 
-async function fetchAndParse(
+export async function fetchAndParse(
 	url: string,
 	count: number
 ): Promise<ImageResponse[] | undefined> {

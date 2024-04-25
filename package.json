@@ -5,7 +5,9 @@
 	"main": "out/index.js",
 	"types": "out/index.d.ts",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"test": "jest",
+		"test:watch": "jest --watch"
 	},
 	"keywords": [
 		"flaticon",
