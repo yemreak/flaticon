@@ -1,6 +1,6 @@
 {
 	"name": "@yemreak/flaticon",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Flaticon icon scraper",
 	"main": "out/index.js",
 	"types": "out/index.d.ts",
