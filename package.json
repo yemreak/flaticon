@@ -1,0 +1,29 @@
+{
+	"name": "@yemreak/flaticon",
+	"version": "0.1.0",
+	"description": "Flaticon icon scraper",
+	"main": "out/index.js",
+	"types": "out/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [
+		"flaticon",
+		"icon"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/yemreak/flaticon"
+	},
+	"author": "yemreak",
+	"license": "ISC",
+	"devDependencies": {
+		"@types/jest": "^29.5.12",
+		"jest": "^29.7.0",
+		"ts-jest": "^29.1.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.12"
+	}
+}
